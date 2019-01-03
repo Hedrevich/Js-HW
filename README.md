@@ -1,2 +1,4 @@
 # Js-HW
-JS HomeWork 1
+JS/HTMl/CSS
+HomeWork
+
