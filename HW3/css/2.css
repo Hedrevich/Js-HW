@@ -1,0 +1,53 @@
+* {
+    height: 98%;
+    margin: 0;
+}
+
+body {
+    color: white;
+}
+
+.grid-container {
+    height: 100%;
+    margin: 1% 1% 0 1%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr;
+}
+
+.grid-container div {
+    display: grid;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 40px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.first {
+    background-color: rgb(147, 238, 147);
+}
+
+.second {
+    background-color: rgb(125, 246, 250);
+}
+
+.three {
+    background-color: rgb(245, 209, 142);
+}
+
+.six {
+    background-color: rgb(252, 162, 252);
+}
+
+.ten {
+    background-color: rgb(143, 86, 86);
+}
+.fouteen{
+    background-color:rgb(131, 102, 102);
+}
+.eleven{
+    background-color: rgb(192, 181, 181);
+}

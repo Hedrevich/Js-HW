@@ -1,0 +1,38 @@
+
+* {
+    height: 98%;
+    margin: 0;
+}
+
+.grid-container div {
+    
+    display: grid;
+    font-size: 40px;
+    align-content: center;
+    justify-content: left;
+    padding-left:25px;
+}
+.grid-container {
+    height: 100%;
+    margin: 1% 1% 0 1%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr)
+}
+.gray{
+    background-color:rgb(59, 59, 59);
+    border-radius: 5%;
+    color:white;
+}
+.white{
+    background-color: rgb(175, 175, 175);
+    border-radius: 5%;
+    color:black;
+}
+.item {
+    grid-column-start: 3;
+    grid-column-end: 6; 
+border: 2px solid red;
+background-color: rgb(175, 175, 175);
+}
