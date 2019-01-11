@@ -1,0 +1,178 @@
+
+* {
+    margin: 0px;
+    height: 100%;
+    color: black;
+    
+}
+
+body {
+    height: 97%;
+    background-color: rgb(218, 244, 247);
+}
+
+.content-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 98.7%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.15);
+}
+
+.header {
+    display: inline-flex;
+    background-color: white;
+    width: 50%;
+    min-width: 360px;
+}
+.right {
+    justify-content: flex-end;
+}
+
+.header form {
+    width: 100%;
+    display: flex;
+}
+
+.form-input {
+    width: 50%;
+    min-width: 200px;
+    outline-color:  rgb(5, 5, 112);;
+}
+
+.item {
+    margin: 0 5px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+.header-text {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-left: 1px solid black;
+    width: 20%;
+    min-width: 200px;
+    padding-left: 5px;
+}
+
+.header-btn {
+    margin-left: 1%;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: rgb(5, 5, 112);
+}
+.header-btn:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.main {
+    width: 30%;
+    text-align: center;
+}
+
+.offices {
+    width: 17%;
+    text-align: center;
+}
+.offices:hover {
+    cursor: pointer;
+}
+.offices:hover .header-btn {
+    color:or;
+}
+
+.dropdown-list {
+    display: none;
+    margin-top: 10px;
+}
+.offices:hover .dropdown-list {
+    display: block;
+    position: absolute;
+    width: 30%;
+}
+.dropdown-list p {
+    border-left: 2px solid  rgb(5, 5, 112);
+    border-right: 2px solid  rgb(5, 5, 112);
+    background-color:white;
+}
+.dropdown-list p:last-child {
+    border-bottom: 2px solid  rgb(5, 5, 112);
+}
+.main-block {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    justify-content: space-between;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tdiv {
+    margin: 5px;
+    background-image: url(../img/people.jpg);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    color: black;
+  
+}
+
+.fdiv {
+    background-color: RGBA(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.main-block div header {
+    width: 95%;
+    height: 30%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    word-wrap:wrap;    
+}
+
+.main-block div main {
+    background-color: rgb(131, 131, 131);
+    padding: 10px;
+    font-size: auto;
+    width: 93.3%;
+    margin-top: 10%;
+    height: 35%;
+}
+
+.main-block div button {
+    background-color: RGB(30, 30, 30);
+    display: flex;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    height: 12%;
+    color: white;
+    outline: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: center;
+    transition: 0.05s;
+}
+
+.main-block div button:hover {
+    cursor: pointer;
+    background-color: rgb(248, 150, 105);
+    transition: 0.5s;
+}
