@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(182, 248, 234);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: black;
+    border-color: gray;
+} 
+.btn-success:hover{
+    background-color: rgb(151, 104, 16);
+    opacity: 0.5s;
+}
+table {
+    margin: 5vh 0;
+    width: 100%;
+}
+td, th{
+    padding: 1vw!important;
+}
+
+#delete{
+    visibility: hidden;
+}
